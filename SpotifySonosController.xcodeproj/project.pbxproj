@@ -12,10 +12,7 @@
 		23299C8919F909D400615D04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23299C7A19F909D400615D04 /* ViewController.swift */; };
 		23299C8A19F909D400615D04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23299C7D19F909D400615D04 /* Main.storyboard */; };
 		23299C8B19F909D400615D04 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23299C7F19F909D400615D04 /* Images.xcassets */; };
-		23299C8C19F909D400615D04 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 23299C8019F909D400615D04 /* Info.plist */; };
-		23299C8D19F909D400615D04 /* SonosController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23299C8319F909D400615D04 /* SonosController.m */; };
-		23299C8E19F909D400615D04 /* SonosControllerStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 23299C8519F909D400615D04 /* SonosControllerStore.m */; };
-		23299C8F19F909D400615D04 /* SonosDiscovery.m in Sources */ = {isa = PBXBuildFile; fileRef = 23299C8719F909D400615D04 /* SonosDiscovery.m */; };
+		E836C7D7A6BEAC5C9AB503A9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE9BB09BC6ABFA33091F76C /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,12 +35,14 @@
 		23299C7E19F909D400615D04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		23299C7F19F909D400615D04 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		23299C8019F909D400615D04 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		23299C8219F909D400615D04 /* SonosController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SonosController.h; sourceTree = "<group>"; };
-		23299C8319F909D400615D04 /* SonosController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SonosController.m; sourceTree = "<group>"; };
-		23299C8419F909D400615D04 /* SonosControllerStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SonosControllerStore.h; sourceTree = "<group>"; };
-		23299C8519F909D400615D04 /* SonosControllerStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SonosControllerStore.m; sourceTree = "<group>"; };
-		23299C8619F909D400615D04 /* SonosDiscovery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SonosDiscovery.h; sourceTree = "<group>"; };
-		23299C8719F909D400615D04 /* SonosDiscovery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SonosDiscovery.m; sourceTree = "<group>"; };
+		23299C9019F90D5A00615D04 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		23299C9219F90D6A00615D04 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		23299C9419F90D7700615D04 /* libPods-AFNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-AFNetworking.a"; path = "Pods/build/Debug-iphoneos/libPods-AFNetworking.a"; sourceTree = "<group>"; };
+		23299C9519F90D7700615D04 /* libPods-CocoaAsyncSocket.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-CocoaAsyncSocket.a"; path = "Pods/build/Debug-iphoneos/libPods-CocoaAsyncSocket.a"; sourceTree = "<group>"; };
+		23299C9619F90D7700615D04 /* libPods-sonos-objc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-sonos-objc.a"; path = "Pods/build/Debug-iphoneos/libPods-sonos-objc.a"; sourceTree = "<group>"; };
+		2B055D74BF0D8D78AA59515A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		9D0DF1862FDAD9D2ADC39EDD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		BEE9BB09BC6ABFA33091F76C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E836C7D7A6BEAC5C9AB503A9 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +70,8 @@
 				23299C3319F8FA1600615D04 /* SpotifySonosController */,
 				23299C4619F8FA1600615D04 /* SpotifySonosControllerTests */,
 				23299C3219F8FA1600615D04 /* Products */,
+				74B641C4D31A5A7AA432BC3E /* Pods */,
+				2C6047C130EC2844DC1D123D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,7 +91,6 @@
 				23299C7919F909D400615D04 /* Controllers */,
 				23299C7B19F909D400615D04 /* Helpers */,
 				23299C7C19F909D400615D04 /* Resources */,
-				23299C8119F909D400615D04 /* SonosKit */,
 			);
 			path = SpotifySonosController;
 			sourceTree = "<group>";
@@ -144,17 +145,26 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		23299C8119F909D400615D04 /* SonosKit */ = {
+		2C6047C130EC2844DC1D123D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				23299C8219F909D400615D04 /* SonosController.h */,
-				23299C8319F909D400615D04 /* SonosController.m */,
-				23299C8419F909D400615D04 /* SonosControllerStore.h */,
-				23299C8519F909D400615D04 /* SonosControllerStore.m */,
-				23299C8619F909D400615D04 /* SonosDiscovery.h */,
-				23299C8719F909D400615D04 /* SonosDiscovery.m */,
+				23299C9419F90D7700615D04 /* libPods-AFNetworking.a */,
+				23299C9519F90D7700615D04 /* libPods-CocoaAsyncSocket.a */,
+				23299C9619F90D7700615D04 /* libPods-sonos-objc.a */,
+				23299C9219F90D6A00615D04 /* SystemConfiguration.framework */,
+				23299C9019F90D5A00615D04 /* Security.framework */,
+				BEE9BB09BC6ABFA33091F76C /* libPods.a */,
 			);
-			path = SonosKit;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74B641C4D31A5A7AA432BC3E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D0DF1862FDAD9D2ADC39EDD /* Pods.debug.xcconfig */,
+				2B055D74BF0D8D78AA59515A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,9 +174,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 23299C4D19F8FA1600615D04 /* Build configuration list for PBXNativeTarget "SpotifySonosController" */;
 			buildPhases = (
+				81695AC346EECBAAA27591D5 /* Check Pods Manifest.lock */,
 				23299C2D19F8FA1600615D04 /* Sources */,
 				23299C2E19F8FA1600615D04 /* Frameworks */,
 				23299C2F19F8FA1600615D04 /* Resources */,
+				ECF5B06630849BE98966CEC2 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -239,7 +251,6 @@
 			files = (
 				23299C8A19F909D400615D04 /* Main.storyboard in Resources */,
 				23299C8B19F909D400615D04 /* Images.xcassets in Resources */,
-				23299C8C19F909D400615D04 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,16 +263,46 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		81695AC346EECBAAA27591D5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ECF5B06630849BE98966CEC2 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		23299C2D19F8FA1600615D04 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23299C8F19F909D400615D04 /* SonosDiscovery.m in Sources */,
-				23299C8E19F909D400615D04 /* SonosControllerStore.m in Sources */,
 				23299C8919F909D400615D04 /* ViewController.swift in Sources */,
 				23299C8819F909D400615D04 /* AppDelegate.swift in Sources */,
-				23299C8D19F909D400615D04 /* SonosController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,22 +415,32 @@
 		};
 		23299C4E19F8FA1600615D04 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D0DF1862FDAD9D2ADC39EDD /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = SpotifySonosController/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SpotifySonosController/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		23299C4F19F8FA1600615D04 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B055D74BF0D8D78AA59515A /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = SpotifySonosController/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SpotifySonosController/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
