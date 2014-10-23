@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		23299C3719F8FA1600615D04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23299C3619F8FA1600615D04 /* AppDelegate.swift */; };
-		23299C3919F8FA1600615D04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23299C3819F8FA1600615D04 /* ViewController.swift */; };
-		23299C3B19F8FA1600615D04 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23299C3A19F8FA1600615D04 /* Images.xcassets */; };
-		23299C3E19F8FA1600615D04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23299C3C19F8FA1600615D04 /* Main.storyboard */; };
 		23299C4A19F8FA1600615D04 /* SpotifySonosControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23299C4919F8FA1600615D04 /* SpotifySonosControllerTests.swift */; };
+		23299C8819F909D400615D04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23299C7819F909D400615D04 /* AppDelegate.swift */; };
+		23299C8919F909D400615D04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23299C7A19F909D400615D04 /* ViewController.swift */; };
+		23299C8A19F909D400615D04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23299C7D19F909D400615D04 /* Main.storyboard */; };
+		23299C8B19F909D400615D04 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23299C7F19F909D400615D04 /* Images.xcassets */; };
+		23299C8C19F909D400615D04 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 23299C8019F909D400615D04 /* Info.plist */; };
+		23299C8D19F909D400615D04 /* SonosController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23299C8319F909D400615D04 /* SonosController.m */; };
+		23299C8E19F909D400615D04 /* SonosControllerStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 23299C8519F909D400615D04 /* SonosControllerStore.m */; };
+		23299C8F19F909D400615D04 /* SonosDiscovery.m in Sources */ = {isa = PBXBuildFile; fileRef = 23299C8719F909D400615D04 /* SonosDiscovery.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,14 +30,20 @@
 
 /* Begin PBXFileReference section */
 		23299C3119F8FA1600615D04 /* SpotifySonosController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotifySonosController.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		23299C3519F8FA1600615D04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		23299C3619F8FA1600615D04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		23299C3819F8FA1600615D04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		23299C3A19F8FA1600615D04 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		23299C3D19F8FA1600615D04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		23299C4319F8FA1600615D04 /* SpotifySonosControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotifySonosControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23299C4819F8FA1600615D04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23299C4919F8FA1600615D04 /* SpotifySonosControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifySonosControllerTests.swift; sourceTree = "<group>"; };
+		23299C7819F909D400615D04 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		23299C7A19F909D400615D04 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		23299C7E19F909D400615D04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		23299C7F19F909D400615D04 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		23299C8019F909D400615D04 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23299C8219F909D400615D04 /* SonosController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SonosController.h; sourceTree = "<group>"; };
+		23299C8319F909D400615D04 /* SonosController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SonosController.m; sourceTree = "<group>"; };
+		23299C8419F909D400615D04 /* SonosControllerStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SonosControllerStore.h; sourceTree = "<group>"; };
+		23299C8519F909D400615D04 /* SonosControllerStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SonosControllerStore.m; sourceTree = "<group>"; };
+		23299C8619F909D400615D04 /* SonosDiscovery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SonosDiscovery.h; sourceTree = "<group>"; };
+		23299C8719F909D400615D04 /* SonosDiscovery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SonosDiscovery.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,21 +85,13 @@
 		23299C3319F8FA1600615D04 /* SpotifySonosController */ = {
 			isa = PBXGroup;
 			children = (
-				23299C3619F8FA1600615D04 /* AppDelegate.swift */,
-				23299C3819F8FA1600615D04 /* ViewController.swift */,
-				23299C3A19F8FA1600615D04 /* Images.xcassets */,
-				23299C3C19F8FA1600615D04 /* Main.storyboard */,
-				23299C3419F8FA1600615D04 /* Supporting Files */,
+				23299C7719F909D400615D04 /* Application */,
+				23299C7919F909D400615D04 /* Controllers */,
+				23299C7B19F909D400615D04 /* Helpers */,
+				23299C7C19F909D400615D04 /* Resources */,
+				23299C8119F909D400615D04 /* SonosKit */,
 			);
 			path = SpotifySonosController;
-			sourceTree = "<group>";
-		};
-		23299C3419F8FA1600615D04 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				23299C3519F8FA1600615D04 /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		23299C4619F8FA1600615D04 /* SpotifySonosControllerTests */ = {
@@ -107,6 +109,52 @@
 				23299C4819F8FA1600615D04 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		23299C7719F909D400615D04 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				23299C7819F909D400615D04 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		23299C7919F909D400615D04 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				23299C7A19F909D400615D04 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		23299C7B19F909D400615D04 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		23299C7C19F909D400615D04 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				23299C7D19F909D400615D04 /* Main.storyboard */,
+				23299C7F19F909D400615D04 /* Images.xcassets */,
+				23299C8019F909D400615D04 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		23299C8119F909D400615D04 /* SonosKit */ = {
+			isa = PBXGroup;
+			children = (
+				23299C8219F909D400615D04 /* SonosController.h */,
+				23299C8319F909D400615D04 /* SonosController.m */,
+				23299C8419F909D400615D04 /* SonosControllerStore.h */,
+				23299C8519F909D400615D04 /* SonosControllerStore.m */,
+				23299C8619F909D400615D04 /* SonosDiscovery.h */,
+				23299C8719F909D400615D04 /* SonosDiscovery.m */,
+			);
+			path = SonosKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,8 +237,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23299C3B19F8FA1600615D04 /* Images.xcassets in Resources */,
-				23299C3E19F8FA1600615D04 /* Main.storyboard in Resources */,
+				23299C8A19F909D400615D04 /* Main.storyboard in Resources */,
+				23299C8B19F909D400615D04 /* Images.xcassets in Resources */,
+				23299C8C19F909D400615D04 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,8 +257,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23299C3919F8FA1600615D04 /* ViewController.swift in Sources */,
-				23299C3719F8FA1600615D04 /* AppDelegate.swift in Sources */,
+				23299C8F19F909D400615D04 /* SonosDiscovery.m in Sources */,
+				23299C8E19F909D400615D04 /* SonosControllerStore.m in Sources */,
+				23299C8919F909D400615D04 /* ViewController.swift in Sources */,
+				23299C8819F909D400615D04 /* AppDelegate.swift in Sources */,
+				23299C8D19F909D400615D04 /* SonosController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,10 +284,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		23299C3C19F8FA1600615D04 /* Main.storyboard */ = {
+		23299C7D19F909D400615D04 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				23299C3D19F8FA1600615D04 /* Base */,
+				23299C7E19F909D400615D04 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -397,6 +449,7 @@
 				23299C4F19F8FA1600615D04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		23299C5019F8FA1600615D04 /* Build configuration list for PBXNativeTarget "SpotifySonosControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +458,7 @@
 				23299C5219F8FA1600615D04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
